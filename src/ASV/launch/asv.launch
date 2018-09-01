@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Base -->
+<launch>
+
+    <node pkg="ceiia_asv" type="Ownship_vehicle.py" name="Ownship" respawn="true" output="screen" args="3" />
+    <node pkg="ceiia_asv" type="Contact_vehicle.py" name="Contact" respawn="true" args="3"/> <!-- output="screen" -->
+
+    <!-- args == GiveWayOT =  2    HeadOn  =  3   StandOnOT  =  4    GiveWayX  =  5  StandOnX  =  6 -->
+
+    <!--- #FIXME: <include file="$(find ASV_description)/world/_________.launch"> --->
+
+  </include>
+
+</launch>

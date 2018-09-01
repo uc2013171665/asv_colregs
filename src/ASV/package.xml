@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ASV</name>
+  <version>0.1.0</version>
+  <description>Package that includes all the packages required by the ASV</description>
+
+  <maintainer email="uc2013171665@student.uc.pt">Andre Santos</maintainer>
+
+  <license>TODO</license>
+
+  <depend>rospy</depend>
+  <depend>ASV_messages</depend>
+  <depend>rosgraph_msgs</depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+  <exec_depend>video_stream_opencv</exec_depend>
+  <exec_depend>web_video_server</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>python-psutil</exec_depend>
+  <!-- <exec_depend>message_runtime</exec_depend> -->
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

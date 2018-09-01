@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="waypoint">
+    <link name="waypoint_link">
+      <gravity>false</gravity>
+      <pose>0 0 0 0 0 0</pose>
+      <visual name="waypoint_visual">
+				<cast_shadows>false</cast_shadows>
+        <geometry>
+          <sphere>
+            <radius>2.5</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
